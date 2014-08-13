@@ -25,4 +25,4 @@ $ python2.7 -m Abe.abe --config gcoin.conf
 Configuration
 -------------
 
-* Port: 100000
+* Port: 10000
