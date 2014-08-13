@@ -60,6 +60,12 @@ CONFIG_DEFAULTS = {
 WORK_BITS = 304  # XXX more than necessary.
 
 CHAIN_CONFIG = [
+    {"chain":"GCoin01",
+     "code3":"GC01", "address_version":"\x01", "magic":"\xab\xa7\x94\x95"},
+    {"chain":"GCoin12",
+     "code3":"GC12", "address_version":"\x01", "magic":"\xab\xa7\x95\x96"},
+    {"chain":"GCoin30",
+     "code3":"GC30", "address_version":"\x01", "magic":"\xab\xa7\x97\x94"},
     {"chain":"Bitcoin"},
     {"chain":"Testnet"},
     {"chain":"Namecoin"},
